@@ -4,7 +4,7 @@ plugins {
 
 dependencies {
     implementation("io.github.monun:kommand-api:2.10.0")
-    implementation("io.github.monun:invfx-api:3.1.0")
+    implementation("io.github.monun:invfx-api:3.1.0") // 왜 안돼? 333
 }
 
 tasks {
