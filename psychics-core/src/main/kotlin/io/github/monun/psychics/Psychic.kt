@@ -415,12 +415,15 @@ class Psychic internal constructor(
      * @exception IllegalArgumentException 활성화되지 않은 객체일때 발생
      */
     fun spawnMarker(location: Location): FakeEntity<Entity> {
-        return spawnFakeEntity(location, ArmorStand::class.java).apply {
+        return spawnFakeEntity(location, ArmorStand::class.java).apply {/*
             updateMetadata<ArmorStand> {
                 //TODO updateMetadata should be fetched to what it is used on Tap:4.4.0
                 isMarker = true
                 isInvisible = true
-            }
+            }*/
+            updateMetadata(
+                
+            )
         }
     }
 
