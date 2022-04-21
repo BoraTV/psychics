@@ -368,7 +368,7 @@ class Psychic internal constructor(
         fakeEntities.add(fakeEntity as FakeEntity<Entity>)
 
         return fakeEntity
-    }
+    }//TODO 심각: 모함수 객체 형변환 불가 -> 파일 분리해야 하나?
 
     /**
      * 가상 [org.bukkit.entity.FallingBlock]을 생성합니다.
