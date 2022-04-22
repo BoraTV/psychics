@@ -23,3 +23,4 @@ Dependencies: [Tap-API ![Maven Central](https://img.shields.io/maven-central/v/i
 
 * [docs](https://monun.github.io/psychics/)
 * [original repository](https://github.com/monun/psychics)
+
